@@ -1,0 +1,58 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.compact .panel {
+  flex: 1;
+  margin: 0.5rem;
+}
+
+.expanded .panel {
+  flex: 1;
+  margin: 1rem;
+}
+
+.panel {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
